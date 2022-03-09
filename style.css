@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 793.7008px;
+    min-height: 1122.5197px;
+    margin: 50px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 35px rgba(0, 0, 0, 0.1);
+}
+.container .left_side {
+    position: relative;
+    background: #003147;
+    padding: 25px;
+}
+.profileText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.profileText .imgBx {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileText .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* height: depend on each situation  */
+    object-fit: cover;
+}
+.profileText h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profileText h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.contactInfo {
+    padding-top: 40px;
+}
+.title {
+    font-size: 20px;
+
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.contactInfo ul {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    cursor: pointer;  
+}
+.contactInfo ul li {
+    display: flex;
+    margin: 5px 0;
+}
+.contactInfo ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.contactInfo ul li span {
+    color: #fff;
+}
+.contactInfo.education li {
+    display: block;
+    margin-bottom: 10px;
+}
+.contactInfo.education h5 {
+    color: #03a9f4;
+    font-weight: 500;
+    padding: 3px 0;
+    font-size: 1em;
+}
+.contactInfo.education h4:nth-child(2) {
+    color: #fff;
+    padding: 6px 0;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.contactInfo.education h4:nth-child(3) {
+    color: rgb(248, 244, 244);
+    font-size: 1em;
+    font-weight: 100;
+}
+.contactInfo .viewMark {
+    padding-left: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+.viewMark {
+    text-align: center;
+    align-items: center;
+    margin-left: 5px;
+}
+.box {
+    width: 100%;
+    height: 100%;
+}
+
+.container .right_side {
+    position: relative;
+    background: #fff;
+    padding: 25px;
+}
+.about {
+    height: 10%;
+}
+.about p {
+    line-height: 20px;
+}
+.about:last-child {
+    margin-bottom: 0;
+}
+
+
+.container1 {
+    height: 30%;
+}
+.container2 {
+    height: 70%;
+}
+.about.experience {
+    margin-bottom: 20px;
+    height: 70%;
+}
+.about.experience .box {
+    margin-top: 10px;
+}
+.about.experience .box p {
+    line-height: 20px;
+}
+.about.experience .skill {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.about.experience .skill div {
+    font-size: 18px;
+    display: flex;
+}
+.about.experience .html {
+    
+    color:rgba(224, 117, 17, 0.1);
+}
+.about.experience .css {
+    color:blue;
+}
+.about.experience .javascript {
+    color:orange;
+}
+
+
+.about .activities {
+    height: 30%
+}
+.activities .title2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.activities li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+.activities .year {
+    color: #03a9f4;
+}
+.interest ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.interest ul li {
+    margin: 0;
+    padding-top: 3px;
+    list-style: none;
+    color: #fff;
+    font-weight: 300;
+}
+.interest ul li .int {
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    margin-right: 10px;
+    color: #03a9f4;
+    font-size: 16px;
+    width: 20px;
+}
+
+.project_overview {
+    width: 100%;
+    height: 75%;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+
+.project img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.mota {
+    position: absolute;
+    /* bottom: 10px; */
+    z-index: 10;
+    font-weight: 600;
+}
